@@ -5,5 +5,14 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: "gatsby-source-graphql",
+      options: {
+        typeName: "WpGraphQL",
+        fieldName: "wpgraphql",
+        url: "https://wordpressjamstack.zeemde75-liquidwebsites.com/graphql",
+      },
+    },
+  ],
 }
