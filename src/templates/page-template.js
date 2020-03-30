@@ -20,7 +20,7 @@ const PageTemplate = ({ data }) => {
     <Layout>
       <h1 dangerouslySetInnerHTML={{ __html: page.title }} />
       <div dangerouslySetInnerHTML={{ __html: page.content }} />
-      <p>This should be on every page</p>
+      <p>This should be on every page test.</p>
     </Layout>
   )
 }
